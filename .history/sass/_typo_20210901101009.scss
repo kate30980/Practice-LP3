@@ -1,0 +1,16 @@
+.caption{
+    text-transform: uppercase;
+    color: $primary-color;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    line-height: lineH(56,36);
+    margin-bottom: 40px;
+}
+.text{
+    line-height: lineH(34,18);
+}

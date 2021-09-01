@@ -1,0 +1,14 @@
+.feature{
+
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 0 30px;
+    }
+    &-item{
+        background-color: $gray-dark;
+        display: flex;
+        align-items: center;
+
+    }
+}

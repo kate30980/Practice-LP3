@@ -1,0 +1,14 @@
+.about{
+    padding-bottom: 190px;
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 70px;
+    }
+    &-content{
+        max-width: 470px;
+    }
+    &-image{
+    }
+}

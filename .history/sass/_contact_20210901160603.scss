@@ -1,0 +1,35 @@
+.contact{
+    &-main{
+        padding: 135px 20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        text-align: center;
+        background-color: $gray-darkest;
+        border-radius: 12px;
+        position: relative;
+    }
+    &-person{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+    }
+    &-liquid{
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 90px;
+    }
+    &-content{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    &-desc{
+        margin-bottom: 60px;
+    }
+}

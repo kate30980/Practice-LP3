@@ -1,0 +1,36 @@
+.experience{
+    padding-bottom: 200px;
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 70px;
+    }
+    &-year{
+        position: relative;
+        z-index: 2;
+    }
+    &-mask{
+        position: absolute;
+        top: 0; 
+        left: 50%;transform: translateX(-50%);
+        pointer-events: none;
+    }
+    &-number{
+        font-size: 400px;
+        font-weight: 800;
+        color: $primary-color;
+        position: relative;
+        flex: 1;
+        text-align: center;
+    }
+    &-dots{
+        position: absolute;
+        right: -20px;top: 50%;
+    }
+    &-content{
+        max-width: 470px;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,41 @@
+.review{
+    margin-bottom: 50px;
+    &-header{
+        max-width: 500px;
+        margin: 0 auto 60px;
+        text-align: center;
+    }
+    &-item{
+        max-width: 840px;
+        margin: 0 auto;
+        border-radius: 8px;
+        text-align: center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        background-color: $gray-darker;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 75px 100px 60px;
+        position: relative;
+    }
+    &-icon{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    &-desc{
+        color: white;
+        font-size: 30px;
+        line-height: lineH(48,30);
+        margin-bottom: 40px;
+    }
+    &-avatar{
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 100rem;  
+      margin-bottom: 20px;
+    }
+}

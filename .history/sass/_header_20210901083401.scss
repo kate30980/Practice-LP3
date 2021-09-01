@@ -1,0 +1,26 @@
+.header{
+    border-bottom: 1px solid white;
+    &-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+    }
+    &-tool{
+        display: flex;
+        align-items: center;
+        gap: 0 50px;
+    }
+} 
+.menu{
+    &-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 0 50px;
+        color: white;
+    }
+    &-link{
+        text-decoration: none;
+    }
+}

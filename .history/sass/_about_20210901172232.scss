@@ -1,0 +1,23 @@
+.about{
+    padding-bottom: 190px;
+    .container{
+        position: relative;
+    }
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 70px;
+    }
+    &-content{
+        max-width: 470px;
+    }
+    &-phone{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &-image{
+        position: relative;
+    }
+}

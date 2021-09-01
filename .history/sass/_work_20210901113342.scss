@@ -1,0 +1,21 @@
+.work{
+    padding-top: 190px;
+    padding-bottom: 190px;
+    &-header{
+        text-align: center;
+        max-width: 490px;
+        margin: 0 auto 100px;
+    }
+    &-list{
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        grid-template-rows: 370px 180px 370px;
+    }
+    &-link{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+}

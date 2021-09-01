@@ -1,0 +1,19 @@
+.review{
+    &-header{
+        max-width: 500px;
+        margin: 0 auto 60px;
+        text-align: center;
+    }
+    &-item{
+        max-width: 840px;
+        margin: 0 auto;
+        border-radius: 4px;
+        text-align: center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        background-color: $gray-darker;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}

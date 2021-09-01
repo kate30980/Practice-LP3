@@ -1,0 +1,12 @@
+.partner{
+    &-header{
+        margin-bottom: 95px;
+        text-align: center;
+    }
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 25px;
+        grid-template-rows: 1fr 1fr;
+    }
+}

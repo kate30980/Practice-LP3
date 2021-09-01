@@ -1,0 +1,80 @@
+.footer{
+    &-top{
+        padding: 450px 0 150px;
+        background-color: $gray-dark;
+    }
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 130px;
+    }
+    &-logo{
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    &-desc{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+        cursor: pointer;
+        color:$gray-light;
+        &-item:hover{
+            color: white;
+        }
+    }
+    &-heading{
+        font-size: 18px;
+        color: white;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    &-links{
+        list-style: none;
+    }
+    &-item{
+        margin-bottom: 20px;
+    }
+    &-link{
+        display: inline-block;
+        color: $gray-light;
+        text-decoration: none;
+    }
+    &-info{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    &-info li{
+        margin-bottom: 10px;
+    }
+    &-bottom{
+        background-color: $gray-darker;
+    }
+    &-bottom a{
+        color: white;
+    }
+    &-container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+    }
+    &-rocker{
+        color: white;
+        border-radius: 15px;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:$blue-color;
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+}

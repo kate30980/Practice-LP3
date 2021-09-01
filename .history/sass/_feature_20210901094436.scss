@@ -1,0 +1,17 @@
+.feature{
+
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 0 30px;
+    }
+    &-item{
+        background-color: $gray-dark;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 450px;
+        border-radius:15px;
+        padding: 70px 0;
+    }
+}

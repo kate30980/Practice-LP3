@@ -1,0 +1,13 @@
+.hero{
+    padding: 270px 0 380px;
+    color: white;
+    &-heading{
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 120px;
+        margin-bottom: 15px;
+    }
+    &-caption{
+        font-size: 40px;font-weight: 400;  
+    }
+}

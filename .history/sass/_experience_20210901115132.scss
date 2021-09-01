@@ -1,0 +1,25 @@
+.experience{
+    padding-bottom: 200px;
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 70px;
+    }
+    &-number{
+        font-size: 400px;
+        font-weight: 800;
+        color: $primary-color;
+        position: relative;
+        flex: 1;
+        img{
+            position: absolute;
+            right: -50px;top: 50%;
+        }
+    }
+    &-content{
+        max-width: 470px;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+}

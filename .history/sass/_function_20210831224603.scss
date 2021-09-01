@@ -1,0 +1,6 @@
+/*Dùng để tính toán lineheight, số lineheight / font-size của chữ  */
+
+@use 'sass:math';
+@function lineH($s, $h){
+    @return math.div($s, $h);
+}

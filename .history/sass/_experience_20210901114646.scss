@@ -1,0 +1,13 @@
+.experience{
+    padding-bottom: 200px;
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-numbers{
+        font-size: 400px;
+        font-weight: 800;
+        color: $primary-color;
+    }
+}

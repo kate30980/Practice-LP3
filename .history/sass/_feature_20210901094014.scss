@@ -1,0 +1,10 @@
+.feature{
+    &-item{
+        display: flex;
+        align-items: center;
+        background-color: $gray-dark;
+        width: 350px;height: 400px;
+        padding: 70px 0;
+
+    }
+}
